@@ -71,6 +71,7 @@
     "version:next": "changeset version --snapshot next",
     "release": "changeset publish",
     "version": "changeset version && yarn install --no-immutable"
+    "start": "yarn workspace medusa run start"
   },
   "dependencies": {
     "@changesets/changelog-github": "^0.4.8",
